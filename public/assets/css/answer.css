@@ -1,0 +1,20 @@
+.col-11{
+    font-size: 12px"
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 575px) {
+    .userrname{
+        font-size: 12px;
+    }
+    .text-secondary{
+        font-size: 10px;
+    }
+    .row{
+        display: flex;
+    flex-wrap: wrap;
+    }
+}

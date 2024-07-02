@@ -1,0 +1,47 @@
+.navbar{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.142), 0 2px 4px -1px rgba(0, 0, 0, 0.153);
+
+}
+
+/*search bar*/
+
+
+.icon{
+    align-items: center;
+}
+@media (min-width: 320px) and (max-width: 552px) {
+    .navbar-brand {
+        font-size: 12px;
+    }
+    .btn-pill {
+
+        border-radius: 15px; /* Mengurangi border-radius */
+        padding: 9px 15px; /* Mengurangi padding */
+        font-size: 18px; /* Mengurangi ukuran font */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-signin,
+    .navbar-signup {
+        display: none;
+    }
+
+    .navbar-nav{
+        display: flex;
+    }
+    .btn-pill{
+        align-items: center;
+    }
+    .btn-pill{
+        width: 40px;
+        height: 35px;
+    }
+    .nav-item{
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+}
